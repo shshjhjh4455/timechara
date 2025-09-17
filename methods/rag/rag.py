@@ -33,7 +33,7 @@ class RAGCutoff:
                     embedding_function=OpenAIEmbeddings(openai_api_key=openai_api_key),
                 )
         else:
-            raise NotImplementedError, f"Download Chroma DB files from 'https://drive.google.com/file/d/1ye55y2hE20tQES1Co1iI5Eq28xJ-WCFv/view?usp=sharing' to use RAGCutoff and NarrativeExpertsRAGCutoff!!"
+            raise NotImplementedError(f"Download Chroma DB files from 'https://drive.google.com/file/d/1ye55y2hE20tQES1Co1iI5Eq28xJ-WCFv/view?usp=sharing' to use RAGCutoff and NarrativeExpertsRAGCutoff!!")
             # self.vectorstore = {}
             # for series_name in ['harry_potter', 'the_lord_of_the_rings', 'twilight', 'hunger_games']:
             #     if series_name in ['harry_potter', 'twilight', 'hunger_games']:

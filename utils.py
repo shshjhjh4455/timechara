@@ -361,8 +361,10 @@ def call_openai_api(model_name,
                     n=1,
                     seed=0):
     try:
-        # Call the OpenAI API with your prompt
-        response = openai.ChatCompletion.create(
+        # Call the OpenAI API with your prompt (updated for new SDK)
+        from openai import OpenAI
+        client = OpenAI()
+        response = client.chat.completions.create(
             model=model_name,
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -375,7 +377,7 @@ def call_openai_api(model_name,
             seed=seed,
         )
         return response
-    except (RuntimeError, openai.error.RateLimitError, openai.error.ServiceUnavailableError, openai.error.APIError, openai.error.APIConnectionError, openai.error.Timeout) as e:
+    except Exception as e:
         print("Error: {}".format(e))
         time.sleep(2)
         return call_openai_api(model_name, system_prompt, question, max_tokens, temperature, top_p, n, seed)

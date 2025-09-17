@@ -1,0 +1,702 @@
+[
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter2",
+    "data_type": "past-absence",
+    "question": "Were you present as Harry was abruptly awakened by Aunt Petunia and ordered to watch the bacon for D..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter2",
+    "data_type": "past-absence",
+    "question": "Describe your feelings when Harry was abruptly awakened by Aunt Petunia and ordered to watch the bac..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter2",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Harry was abruptly awakened by Aunt Petunia and ordered to watch the baco..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter2",
+    "data_type": "past-absence",
+    "question": "Tell me your feelings when Harry Potter was unexpectedly included in the Dursleys' trip to the zoo a..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter2",
+    "data_type": "past-presence",
+    "question": "Tell me your genuine feelings when Harry Potter was unexpectedly included in the Dursleys' trip to t..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-absence",
+    "question": "Describe your honest feelings when Aunt Petunia was dyeing Dudley's old clothes gray to serve as Har..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-absence",
+    "question": "Were you indeed present as Aunt Petunia was dyeing Dudley's old clothes gray to serve as Harry's sch..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-absence",
+    "question": "Describe your feelings when Harry received his first letter ever, which was addressed to him in the ..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-absence",
+    "question": "Is it right that you were at the moment when Harry received his first letter ever, which was address..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-presence",
+    "question": "Describe your honest feelings when Harry received his first letter ever, which was addressed to him ..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-absence",
+    "question": "Did you truly see the moment when Harry accidentally stepped on Uncle Vernon's face, who was lying i..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-absence",
+    "question": "Is it true that you were at the moment when Harry accidentally stepped on Uncle Vernon's face, who w..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter3",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Harry accidentally stepped on Uncle Vernon's face, who was lying in a sle..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter4",
+    "data_type": "past-absence",
+    "question": "Can you describe your true experience when Hagrid revealed to Harry that he was a wizard and deliver..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Describe your feelings when Harry learned about the existence of Gringotts, the wizards' bank run by..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Tell me your feelings when Harry learned about the existence of Gringotts, the wizards' bank run by ..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry learned about the existence of Gringotts, the wizards' b..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Were you really at the moment when Hagrid used his pink umbrella to magically speed up their boat tr..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Tell me your genuine feelings when Hagrid used his pink umbrella to magically speed up their boat tr..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "What did you actually see as Hagrid expressed his long-standing desire to have a dragon while he and..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Describe your honest feelings when Hagrid expressed his long-standing desire to have a dragon while ..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Were you indeed present as Hagrid revealed to Harry that Professor Quirrell had become nervous and s..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "What did you see as Hagrid and Harry visited Gringotts Wizarding Bank where Hagrid retrieved a small..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Hagrid and Harry visited Gringotts Wizarding Bank where Hagrid..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Were you at the moment when Harry discovered his inheritance of a small fortune in gold coins, silve..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "What did you precisely hear when Harry discovered his inheritance of a small fortune in gold coins, ..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry discovered his inheritance of a small fortune in gold co..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Hagrid advised Harry against using magic on Dudley and bought him an owl ..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Did you truly see the moment when Harry Potter received his first wand from Ollivander's, which was ..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry Potter received his first wand from Ollivander's, which ..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Were you really at the moment when Hagrid reassured Harry about his concerns of being famous and not..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-absence",
+    "question": "Were you at the moment when Hagrid reassured Harry about his concerns of being famous and not knowin..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter5",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Hagrid reassured Harry about his concerns of being famous and ..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-absence",
+    "question": "Did you see the moment when Uncle Vernon agreed to take Harry to King's Cross for his first trip to ..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Describe your feelings when Uncle Vernon agreed to take Harry to King's Cross for his first trip to ..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry learned how to access Platform Nine and Three-Quarters f..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry learned how to access Platform Nine and Three-Quarters f..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-absence",
+    "question": "Is it right that you were at the moment when Harry met Fred and George Weasley for the first time on..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Can you describe your true experience when Harry met Fred and George Weasley for the first time on t..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Can you describe your true experience when Harry met Fred and George Weasley for the first time on t..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on the 1st of September",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-absence",
+    "question": "Did you see the moment when Harry experienced sharing snacks with Ron for the first time on the Hogw..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Were you at the moment when Harry experienced sharing snacks with Ron for the first time on the Hogw..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Is it right that you were at the moment when Hermione Granger introduced herself to Harry Potter and..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "What did you hear when Hermione Granger introduced herself to Harry Potter and Ron Weasley on the Ho..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter6",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Hermione Granger introduced herself to Harry Potter and Ron Weasley on th..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter7",
+    "data_type": "past-presence",
+    "question": "Were you really at the moment when Harry Potter was sorted into Gryffindor after a tense moment wher..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter7",
+    "data_type": "past-presence",
+    "question": "Were you at the moment when Harry Potter was sorted into Gryffindor after a tense moment where the S..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter7",
+    "data_type": "past-presence",
+    "question": "What did you precisely hear when Harry experienced a sharp pain in his scar for the first time when ..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter7",
+    "data_type": "past-presence",
+    "question": "Can you describe your true experience when Harry experienced a sharp pain in his scar for the first ..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter7",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Harry experienced a sharp pain in his scar for the first time when he mad..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Did you see the moment when Neville received a Remembrall from his grandmother, which Draco Malfoy b..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Can you describe your true experience when Neville received a Remembrall from his grandmother, which..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Were you indeed present as Harry caught the Remembrall in a spectacular dive during his first flying..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "What did you precisely hear when Harry caught the Remembrall in a spectacular dive during his first ..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry caught the Remembrall in a spectacular dive during his f..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry was challenged to a wizard's duel by Draco Malfoy, which..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "What did you see as Hermione was locked out of Gryffindor Tower because the Fat Lady had left her po..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Did you truly see the moment when Hermione was locked out of Gryffindor Tower because the Fat Lady h..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Hermione was locked out of Gryffindor Tower because the Fat Lady had left..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Is it true that you were at the moment when Harry and his friends narrowly escaped from Filch and Mr..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Describe your feelings when Harry and his friends narrowly escaped from Filch and Mrs. Norris in the..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Did you truly see the moment when Harry and his friends encountered Peeves while trying to return to..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Tell me your genuine feelings when Harry and his friends encountered Peeves while trying to return t..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Is it right that you were at the moment when After a harrowing encounter with a three-headed dog, He..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter9",
+    "data_type": "past-presence",
+    "question": "Describe your feelings when After a harrowing encounter with a three-headed dog, Hermione scolded Ha..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-absence",
+    "question": "Tell me your genuine feelings when Harry received a Nimbus Two Thousand broomstick due to special ci..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Were you really at the moment when Harry received a Nimbus Two Thousand broomstick due to special ci..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Tell me your genuine feelings when Harry was distracted throughout the day by thoughts of his new Ni..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Describe your feelings when Harry was distracted throughout the day by thoughts of his new Nimbus Tw..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Tell me your genuine feelings when Oliver Wood introduced Harry Potter to the rules and equipment of..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Did you see the moment when Hermione missed the Halloween feast and was unaware of the troll in the ..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Halloween",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Is it true that you were at the moment when Hermione missed the Halloween feast and was unaware of t..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Hermione missed the Halloween feast and was unaware of the tro..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "What did you actually see as Harry and Ron heroically defeated a troll in the girls' bathroom to sav..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Did you truly see the moment when Harry and Ron heroically defeated a troll in the girls' bathroom t..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter10",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry and Ron heroically defeated a troll in the girls' bathro..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter11",
+    "data_type": "past-presence",
+    "question": "Can you describe your true experience when Harry, Hermione, and Ron speculated that Snape was attemp..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter11",
+    "data_type": "past-presence",
+    "question": "What did you precisely hear when During a Quidditch match, Harry's Nimbus Two Thousand broomstick be..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter11",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when During a Quidditch match, Harry's Nimbus Two Thousand broomsti..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter11",
+    "data_type": "past-presence",
+    "question": "Were you indeed present as Harry caught the Golden Snitch in his mouth during his first Quidditch ma..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter11",
+    "data_type": "past-presence",
+    "question": "What did you see as Harry caught the Golden Snitch in his mouth during his first Quidditch match, le..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter12",
+    "data_type": "past-presence",
+    "question": "Were you at the moment when Hagrid refused to provide Harry, Hermione, and Ron with information abou..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter12",
+    "data_type": "past-absence",
+    "question": "Did you see the moment when Harry received an anonymous gift of an invisibility cloak, which was sus..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter12",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Harry received an anonymous gift of an invisibility cloak, which was susp..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter12",
+    "data_type": "past-absence",
+    "question": "Describe your honest feelings when Harry decided to return to the Mirror of Erised to show it to Ron..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "1st-year / on Christmas",
+    "question_period": "Book1-chapter12",
+    "data_type": "past-presence",
+    "question": "Describe your feelings when Ron warned Harry against returning to the Mirror of Erised, expressing c..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "2nd-year / on the 1st of September",
+    "question_period": "Book2-chapter1",
+    "data_type": "past-absence",
+    "question": "Were you present as Harry inadvertently caused chaos at the Dursleys' breakfast table by using the w..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "2nd-year / on the 1st of September",
+    "question_period": "Book2-chapter1",
+    "data_type": "past-absence",
+    "question": "What did you precisely hear when Harry inadvertently caused chaos at the Dursleys' breakfast table b..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "2nd-year / on the 1st of September",
+    "question_period": "Book2-chapter1",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry inadvertently caused chaos at the Dursleys' breakfast ta..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "2nd-year / on the 1st of September",
+    "question_period": "Book2-chapter1",
+    "data_type": "past-presence",
+    "question": "Describe your honest feelings when Harry teased Dudley with fake spells on his birthday, causing Dud..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "2nd-year / on Halloween",
+    "question_period": "Book2-chapter2",
+    "data_type": "past-absence",
+    "question": "What did you see as Dobby visited Harry at the Dursleys' to warn him of a plot to make terrible thin..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "2nd-year / on Christmas",
+    "question_period": "Book2-chapter2",
+    "data_type": "past-absence",
+    "question": "Were you at the moment when Dobby visited Harry at the Dursleys' to warn him of a plot to make terri..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "2nd-year / on Halloween",
+    "question_period": "Book2-chapter2",
+    "data_type": "past-absence",
+    "question": "What did you see as Dobby caused a pudding to crash to the floor in an attempt to prevent Harry from..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "2nd-year / on Halloween",
+    "question_period": "Book2-chapter2",
+    "data_type": "past-absence",
+    "question": "Did you see the moment when Dobby caused a pudding to crash to the floor in an attempt to prevent Ha..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "2nd-year / on Christmas",
+    "question_period": "Book2-chapter3",
+    "data_type": "past-presence",
+    "question": "Were you really at the moment when Fred and George Weasley, along with Ron, used their father's ench..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "2nd-year / on Christmas",
+    "question_period": "Book2-chapter3",
+    "data_type": "past-absence",
+    "question": "Can you describe your true experience when Harry narrowly escaped from the Dursleys' house with the ..."
+  },
+  {
+    "character": "Ronald Weasley",
+    "char_period": "2nd-year / on Christmas",
+    "question_period": "Book2-chapter3",
+    "data_type": "past-presence",
+    "question": "Were you present as Harry narrowly escaped from the Dursleys' house with the help of the Weasleys, w..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "2nd-year / on Halloween",
+    "question_period": "Book2-chapter3",
+    "data_type": "past-presence",
+    "question": "Tell me your feelings when Harry narrowly escaped from the Dursleys' house with the help of the Weas..."
+  },
+  {
+    "character": "Hermione Granger",
+    "char_period": "2nd-year / on the 1st of September",
+    "question_period": "Book2-chapter3",
+    "data_type": "past-absence",
+    "question": "Were you indeed present as Harry discussed the mysterious warning from Dobby with Ron, Fred, and Geo..."
+  },
+  {
+    "character": "Harry Potter",
+    "char_period": "2nd-year / on the 1st of September",
+    "question_period": "Book2-chapter3",
+    "data_type": "past-presence",
+    "question": "Can you describe your experience when Harry discussed the mysterious warning from Dobby with Ron, Fr..."
+  }
+]

@@ -364,18 +364,32 @@ def call_openai_api(model_name,
         # Call the OpenAI API with your prompt (updated for new SDK)
         from openai import OpenAI
         client = OpenAI()
-        response = client.chat.completions.create(
-            model=model_name,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": question},
-            ],
-            max_tokens=max_tokens,
-            temperature=temperature,
-            top_p=top_p,
-            n=n,
-            seed=seed,
-        )
+
+        # GPT-5 models use max_completion_tokens and have restricted parameters
+        if 'gpt-5' in model_name.lower():
+            # GPT-5 models only support default temperature (1) and limited parameters
+            response = client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": question},
+                ],
+                max_completion_tokens=max_tokens,
+                n=n,
+            )
+        else:
+            response = client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": question},
+                ],
+                max_tokens=max_tokens,
+                temperature=temperature,
+                top_p=top_p,
+                n=n,
+                seed=seed,
+            )
         return response
     except Exception as e:
         print("Error: {}".format(e))

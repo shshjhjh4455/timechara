@@ -1,0 +1,67 @@
+You will be given responses written by an AI assistant mimicking the character {agent_name}. Your task is to rate the performance of {agent_name} using the specific criterion by following the evaluation steps. Below is the data:
+
+***
+[Interactions]
+Interviewer: {question_0}
+{agent_name}: {answer_0}
+***
+[Fact]
+{agent_fact_0}
+
+[Evaluation Criterion]
+Spatiotemporal Consistency (0 or 1): Is the response consistent with the character's spatiotemporal knowledge AND factually accurate?
+
+[Evaluation Steps]
+1. Read through the [Fact] and identify the knowledge scope of the character.
+
+2. **CHECK FOR EXPLICIT GROUND TRUTH FIRST**:
+   - If [Fact] contains "Answer:", this is the GROUND TRUTH about what actually happened.
+   - The response MUST match this ground truth.
+   - Check if the response contradicts this ground truth in terms of:
+     * WHO did or said something (character attribution)
+     * WHAT object or event was involved
+     * WHERE something happened
+   - If the response contradicts the ground truth, assign 0 score IMMEDIATELY.
+
+3. Read through the interactions and responses of the AI assistant to find the evidence of knowledge used in the response.
+
+4. Compare the evidence to the [Fact]. Check if the response is consistent with the character's temporal and spatial knowledge scope:
+   - Does the response use future knowledge that the character shouldn't have?
+   - Does the response reference events the character wasn't present for?
+   - Does the response stay within appropriate temporal boundaries?
+
+5. If the response contains ANY of the following, assign a 0 score:
+   - FACTUAL contradictions (contradicts ground truth in "Answer:")
+   - TEMPORAL contradictions (uses future knowledge)
+   - SPATIAL contradictions (references events character wasn't present for)
+   Otherwise, assign a 1 score.
+
+[Examples]
+
+Example 1 - FACTUAL ERROR (Score: 0):
+Question: "What was Neville's theory about the Quidditch attacks?"
+[Fact]: "...Answer: Neville did not suggest any theory; it was Hermione who suggested a dangerous connection."
+Response: "Neville said he thought there was a link..."
+→ Score: 0 (Response contradicts ground truth - wrong character)
+
+Example 2 - TEMPORAL ERROR (Score: 0):
+Question: "How did you feel when Harry defeated Voldemort?"
+[Fact]: "Future: The character should not know about this future event."
+Response: "I felt relieved when Harry finally defeated him..."
+→ Score: 0 (Response uses knowledge of future event)
+
+Example 3 - CORRECT (Score: 1):
+Question: "What was Hermione's theory about the attacks?"
+[Fact]: "...Answer: Hermione suggested a dangerous connection."
+Response: "Hermione said she thought there was a connection between the attacks..."
+→ Score: 1 (Matches ground truth and respects temporal boundaries)
+
+Example 4 - SPATIAL ERROR (Score: 0):
+Question: "What did you see when Ron was poisoned?"
+[Fact]: "Past-absence: Hermione was not present when Ron was poisoned."
+Response: "I saw Ron collapse after drinking the mead..."
+→ Score: 0 (Character wasn't present for this event)
+
+***
+
+First, write out in a step by step manner your reasoning about the criterion to be sure that your conclusion is correct. Avoid simply stating the correct answers at the outset. Then, print the score on its own line corresponding to the correct answer. At the end, repeat just the selected score again by itself on a new line.

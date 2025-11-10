@@ -24,7 +24,7 @@ def narrative_experts(model_name,
                       tokenizer=None,
                       model=None,
                       data_type=None,
-                      max_tokens=1024,
+                      max_tokens=4000,
                       temperature=0.0,
                       top_p=0.95,
                       n=1,
@@ -74,7 +74,7 @@ What is the exact {book_chapter_name} of the scene of the question?
 
 First, write out in a step by step manner your reasoning about the criterion to be sure that your conclusion is correct. Avoid simply stating the correct answers at the outset. Then, print the output on its own line corresponding to the correct answer. At the end, repeat just the selected output again by itself on a new line."""
 
-    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano']:
+    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini']:
         completion = call_openai_api(model_name, "You are a helpful and accurate assistant.", f"{user_prompt}",
                                      max_tokens=max_tokens, temperature=temperature, top_p=top_p, n=n, seed=seed)
         content = completion.choices[0].message.content
@@ -137,7 +137,7 @@ Is the character a participant in the scene of the question?
 
 First, write out in a step by step manner your reasoning about the criterion to be sure that your conclusion is correct. Avoid simply stating the correct answers at the outset. Then, print the output on its own line corresponding to the correct answer. At the end, repeat just the selected output again by itself on a new line."""
 
-    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano']:
+    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini']:
         completion = call_openai_api(model_name, "You are a helpful and accurate assistant.", f"{user_prompt}",
                                         max_tokens=max_tokens, temperature=temperature, top_p=top_p, n=n, seed=seed)
         content = completion.choices[0].message.content
@@ -174,7 +174,7 @@ First, write out in a step by step manner your reasoning about the criterion to 
         pass
 
     # Final response
-    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-4o-mini', 'gpt-4o-nano'] + ['llama-2-13b-chat']:
+    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini'] + ['llama-2-13b-chat']:
         final_query = question if len(hint) == 0 else f"{question}\n(HINT: {' '.join(hint)})"
     elif model_name in ['gpt-3.5-turbo-1106']:
         final_query = question if len(hint) == 0 else f"(HINT: {' '.join(hint)})\n{question}"
@@ -183,7 +183,7 @@ First, write out in a step by step manner your reasoning about the criterion to 
     else:
         raise NotImplementedError
 
-    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano']:
+    if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini']:
         completion = call_openai_api(model_name, system_prompt, final_query,
                                      max_tokens=max_tokens, temperature=temperature, top_p=top_p, n=n, seed=seed)
         response = completion.choices[0].message.content
@@ -231,7 +231,7 @@ class NarrativeExpertsRAGCutoff(RAGCutoff):
                  tokenizer=None,
                  model=None,
                  data_type=None,
-                 max_tokens=1024,
+                 max_tokens=4000,
                  temperature=0.0,
                  top_p=0.95,
                  n=1,
@@ -304,7 +304,7 @@ What is the exact {book_chapter_name} of the scene of the question?
 
 First, write out in a step by step manner your reasoning about the criterion to be sure that your conclusion is correct. Avoid simply stating the correct answers at the outset. Then, print the output on its own line corresponding to the correct answer. At the end, repeat just the selected output again by itself on a new line."""
 
-        if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano']:
+        if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini']:
             completion = call_openai_api(model_name, "You are a helpful and accurate assistant.", f"{user_prompt}",
                                             max_tokens=max_tokens, temperature=temperature, top_p=top_p, n=n, seed=seed)
             content = completion.choices[0].message.content
@@ -390,7 +390,7 @@ Is the character a participant in the scene of the question?
 
 First, write out in a step by step manner your reasoning about the criterion to be sure that your conclusion is correct. Avoid simply stating the correct answers at the outset. Then, print the output on its own line corresponding to the correct answer. At the end, repeat just the selected output again by itself on a new line."""
 
-            if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano']:
+            if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini']:
                 completion = call_openai_api(model_name, "You are a helpful and accurate assistant.", f"{user_prompt}",
                                                 max_tokens=max_tokens, temperature=temperature, top_p=top_p, n=n, seed=seed)
                 content = completion.choices[0].message.content
@@ -438,7 +438,7 @@ First, write out in a step by step manner your reasoning about the criterion to 
 
         if is_future:
             # Final response
-            if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano']:
+            if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini']:
                 completion = call_openai_api(model_name, system_prompt, final_query,
                                              max_tokens=max_tokens, temperature=temperature, top_p=top_p, n=n, seed=seed)
                 response = completion.choices[0].message.content
@@ -469,7 +469,7 @@ First, write out in a step by step manner your reasoning about the criterion to 
                 rag_prompt = f"Context: {self.format_docs(filtered_docs, series_name, book_chapter_cnt)}\n***\n"
 
             # Final response
-            if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano']:
+            if model_name in ['gpt-4o-2024-05-13', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4o-mini', 'gpt-4o-nano', 'gpt-5-mini']:
                 completion = call_openai_api(model_name, system_prompt, f"{rag_prompt}{final_query}",
                                              max_tokens=max_tokens, temperature=temperature, top_p=top_p, n=n, seed=seed)
                 response = completion.choices[0].message.content
